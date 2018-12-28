@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ViewNoodle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/MainBackground"
+    tools:context=".MainActivity" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <Button 
+        android:id = "@+id/naengmyeon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/e"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="냉면"
+        />
+    <Button 
+        android:id = "@+id/udon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/e"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="우동"
+        />
+    <Button 
+        android:id = "@+id/noodle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/e"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="국수"
+        />
+    <Button 
+        android:id = "@+id/pasta"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/e"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="파스타"
+        />
+    <Button 
+        android:id = "@+id/mixture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/e"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="짬뽕"
+        />
+    <Button 
+        android:id = "@+id/jajangmyeon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/e"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="짜장면"
+        />
+    <Button 
+        android:id = "@+id/sujebi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/e"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="수제비"
+        />
+    <Button 
+        android:id = "@+id/soba"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/e"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="소바"
+        />
+    <Button 
+        android:id = "@+id/ramen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/e"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="라면"
+        />
+    </LinearLayout>
+</ScrollView>

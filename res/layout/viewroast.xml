@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ViewRoast"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/MainBackground"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/skewers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFBB00"
+            android:drawableTop="@drawable/d"
+            android:text="꼬치구이"
+            android:textColor="#993800" />
+
+        <Button
+            android:id="@+id/mackerelgrill"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE400"
+            android:drawableTop="@drawable/d"
+            android:text="고등어구이"
+            android:textColor="#993800" />
+
+        <Button
+            android:id="@+id/shellfishgrill"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFBB00"
+            android:drawableTop="@drawable/d"
+            android:text="조개구이"
+            android:textColor="#993800" />
+
+        <Button
+            android:id="@+id/shadgrill"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE400"
+            android:drawableTop="@drawable/d"
+            android:text="전어구이"
+            android:textColor="#993800" />
+
+        <Button
+            android:id="@+id/croakergrill"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFBB00"
+            android:drawableTop="@drawable/d"
+            android:text="조기구이"
+            android:textColor="#993800" />
+
+        <Button
+            android:id="@+id/seriolagrill"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE400"
+            android:drawableTop="@drawable/d"
+            android:text="방어구이"
+            android:textColor="#993800" />
+
+        <Button
+            android:id="@+id/beefgrill"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFBB00"
+            android:drawableTop="@drawable/d"
+            android:text="쇠고기구이"
+            android:textColor="#993800" />
+
+
+        <Button
+            android:id="@+id/cuttlefishgrill"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE400"
+            android:drawableTop="@drawable/d"
+            android:text="오징어구이"
+            android:textColor="#993800" />
+    </LinearLayout>
+
+</ScrollView>

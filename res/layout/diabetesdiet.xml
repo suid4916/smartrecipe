@@ -1,0 +1,33 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/diabetesdiet"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/MainBackground"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="당뇨 식단"
+        android:textColor="#993800"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/diabetsinform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#993800"
+        android:text=" "
+        android:textSize="20sp" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        >
+    </TableRow>
+
+</TableLayout>

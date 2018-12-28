@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ViewRice"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       <Button 
+        android:id = "@+id/beansproutssoup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/h"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="콩나물국"
+        />
+    <Button 
+        android:id = "@+id/pollacksoup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/h"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="북어국"
+        />
+    <Button 
+        android:id = "@+id/prophetsoup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/h"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="선지국"
+        />
+    <Button 
+        android:id = "@+id/measlysoup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/h"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="순대국"
+        />
+    <Button 
+        android:id = "@+id/haejangsoup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/h"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="해장국"
+        />
+    <Button 
+        android:id = "@+id/seaweedsoup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/h"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="미역국"
+        />
+    <Button 
+        android:id = "@+id/misosoup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/h"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="된장국"
+        />
+    <Button 
+        android:id = "@+id/radishsoup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/h"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="맑은무국"
+        />
+    <Button 
+        android:id = "@+id/eggsoup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/h"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="계란국"
+        />
+    </LinearLayout>
+
+</ScrollView>

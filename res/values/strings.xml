@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">스마트레서피</string>
+    <string name="action_settings">Settings</string>
+    <string name="Stew">찌개</string>
+    <string name="Soup">국</string>
+    <string name="Rice">밥</string>
+    <string name="Noodle">국수</string>
+    <string name="Pots">전골</string>
+    <string name="Streamed">찜</string>
+    <string name="Herbs">나물</string>
+    <string name="Roast">구이</string>
+    <string name="Kimchi">김치</string>
+    <string name="Afforestation">조림</string>
+
+    <color name="MainBackground">#FAF4C0</color>
+
+    <string-array name="illness">
+        <item>당뇨</item>
+        <item>고혈압</item>
+    </string-array>
+
+</resources>

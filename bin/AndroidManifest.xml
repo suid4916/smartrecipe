@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartrecipe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <permission android:name="com.example.smartrecipe.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+	<uses-permission android:name="com.example.smartrecipe.permission.C2D_MESSAGE" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/smartrecipe"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.smartrecipe.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.ViewRecipe"
+            android:label="@string/app_name" >
+        </activity>
+        
+        
+        <activity
+            android:name="com.example.smartrecipe.RefrigerView"
+            android:label="냉장고보기" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.InputPersonal"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.DiabetsDiet"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.HypertensionDiet"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.Setting"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.ViewRice"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.DynamicRice"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.ViewNoodle"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.DynamicNoodle"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.ViewPots"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.DynamicPots"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.ViewRoast"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.DynamicRoast"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.ViewSoup"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.DynamicSoup"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.smartrecipe.ViewSteamed"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.DynamicSteamed"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.ViewStew"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.DynamicStew"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.ViewAfforestation"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrecipe.DynamicAfforestation"
+            android:label="@string/app_name" >
+        </activity>
+        <receiver
+			android:name="com.google.android.gcm.GCMBroadcastReceiver"
+			android:permission="com.google.android.c2dm.permission.SEND" >
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+				<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+				<category android:name="com.example.smartrecipe" /> <!-- 젤리빈 부터는 category 빼도 된다 -->
+			</intent-filter>
+		</receiver>
+		<service android:name=".GCMIntentService" />
+    </application>
+</manifest>

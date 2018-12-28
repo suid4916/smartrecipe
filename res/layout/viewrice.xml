@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ViewRice"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <Button 
+        android:id = "@+id/whiterice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="흰쌀밥"
+        />
+    <Button 
+        android:id = "@+id/peasrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="완두콩밥"
+        />
+    <Button 
+        android:id = "@+id/steamedrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="팥밥"
+        />
+    <Button 
+        android:id = "@+id/chestnutrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="밤밥"
+        />
+    <Button 
+        android:id = "@+id/potatorice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="감자밥"
+        />
+    <Button 
+        android:id = "@+id/sweetpotatorice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="고구마밥"
+        />
+    <Button 
+        android:id = "@+id/mushroomrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="표고버섯밥"
+        />
+    <Button 
+        android:id = "@+id/gondeurerice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="곤드레밥"
+        />
+    <Button 
+        android:id = "@+id/beansproutrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="콩나물밥"
+        />
+    </LinearLayout>
+</ScrollView>

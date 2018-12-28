@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ViewStew"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <Button 
+        android:id = "@+id/kimchistew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/a"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="돈육김치찌개"
+        />
+    <Button 
+        android:id = "@+id/misostew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/a"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="된장찌개"
+        />
+    <Button 
+        android:id = "@+id/tofustew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/a"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="순두부찌개"
+        />
+    <Button 
+        android:id = "@+id/pumpkinstew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/a"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="김치호박찌개"
+        />
+    <Button 
+        android:id = "@+id/horseradishstew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/a"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="냉이된장찌개"
+        />
+    <Button 
+        android:id = "@+id/pollackstew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/a"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="생태찌개"
+        />
+    <Button 
+        android:id = "@+id/squidstew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/a"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="오징어김치찌개"
+        />
+    <Button 
+        android:id = "@+id/soybean"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/a"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="청국장"
+        />
+    </LinearLayout>
+</ScrollView>

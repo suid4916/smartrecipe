@@ -1,0 +1,15 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refriger"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:stretchColumns="0"
+    android:background="@color/MainBackground"
+    tools:context=".MainActivity" >
+	<TableRow 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	</TableRow>
+</TableLayout>

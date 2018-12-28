@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ViewStreamed"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/MainBackground"
+    tools:context=".MainActivity" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <Button 
+        android:id = "@+id/steamedegg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="계란찜"
+        />
+    <Button 
+        android:id = "@+id/steamedpork"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="돼지고기 김치찜"
+        />
+    <Button 
+        android:id = "@+id/steamedchicken"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="찜닭"
+        />
+    <Button 
+        android:id = "@+id/steamedpollack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="북어찜"
+        />
+    <Button 
+        android:id = "@+id/steamedsquirt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="미더덕찜"
+        />
+    <Button 
+        android:id = "@+id/steamedwing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="닭날개찜"
+        />
+    <Button 
+        android:id = "@+id/steamedperilla"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="깻잎찜"
+        />
+    <Button 
+        android:id = "@+id/steamedshank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="사태찜"
+        />
+    <Button 
+        android:id = "@+id/steamedmonkfish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/b"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="아귀찜"
+        />
+    </LinearLayout>
+</ScrollView>

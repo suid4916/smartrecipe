@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ViewAfforestation"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/MainBackground"
+    tools:context=".MainActivity" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <Button 
+        android:id = "@+id/jangjorim"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/c"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="장조림"
+        />
+    <Button 
+        android:id = "@+id/croaker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/c"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="조기조림"
+        />
+    <Button 
+        android:id = "@+id/pollack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/c"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="북어조림"
+        />
+    <Button 
+        android:id = "@+id/tofu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/c"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="두부조림"
+        />
+    <Button 
+        android:id = "@+id/potato"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/c"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="감자조림"
+        />
+    <Button 
+        android:id = "@+id/chicken"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/c"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="닭고기조림"
+        />
+    <Button 
+        android:id = "@+id/pork"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/c"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="제육조림"
+        />
+    <Button 
+        android:id = "@+id/chili"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/c"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="풋고추조림"
+        />
+    <Button 
+        android:id = "@+id/pheasant"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/c"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="생치조림"
+        />
+    </LinearLayout>
+</ScrollView>

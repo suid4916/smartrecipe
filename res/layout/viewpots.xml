@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ViewPots"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/MainBackground"
+    tools:context=".MainActivity" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <Button 
+        android:id = "@+id/beefpots"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/f"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="곰탕"
+        />
+    <Button 
+        android:id = "@+id/seafoodpots"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/f"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="해물탕"
+        />
+    <Button 
+        android:id = "@+id/doogolepots"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/f"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="두골탕"
+        />
+    <Button 
+        android:id = "@+id/gaegookpots"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/f"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="깨국탕"
+        />
+    <Button 
+        android:id = "@+id/mushroompots"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/f"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="송이탕"
+        />
+    <Button 
+        android:id = "@+id/fishcakepots"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/f"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="어묵탕"
+        />
+    <Button 
+        android:id = "@+id/ribpots"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/f"
+        android:background="#FFBB00"
+        android:textColor="#993800"
+        android:text="갈비탕"
+        />
+    <Button 
+        android:id = "@+id/musselpots"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/f"
+        android:background="#FFE400"
+        android:textColor="#993800"
+        android:text="홍합탕"
+        />
+    </LinearLayout>
+</ScrollView>
